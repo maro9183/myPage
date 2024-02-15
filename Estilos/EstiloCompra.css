@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+/*Nav*/
+
+nav{
+    z-index: 99;
+}
+
+
+/*main*/
+
+main{
+    position: absolute;
+    top:60px;
+
+    
+}
+
+/*Cards*/
+
+.opcionesCompraCards{
+    position: absolute;
+    height: 220px;
+    width: 80%;    
+   
+   
+
+}
+
+.card-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: break-word;  
+    height: 100%;
+}
+
+
+.card-body h5{
+
+    text-align: center;
+    
+    
+}
+
+.card-body p{
+    text-align: center;
+    
+}
+
+.card-1{
+    border: solid 1px blue;
+   
+    margin-left: 2px;
+    
+}
+
+.card-2{
+    border: solid 1px green;
+    
+    margin-left: 2px;
+}
+
+.card-3{
+    border: solid 1px orange;
+   
+    margin-left: 2px;
+}
+
+/*foms*/
+
+.contenedor-formulario{
+    position: absolute;
+    top:220px;
+  
+    
+}
+
+.contenedor-tituloTicket p{
+    text-align: center;
+}
+
+.form-ticket{
+    margin: 0% 15% 0% 15%;
+    
+}
+
+/*Calculo*/
+.resumen{
+    border-radius: 5px;
+    border: solid 1px grey;
+    background-color: rgb(35, 233, 216);
+    
+    
+    
+}
+
+
+
+
+
+.btn{
+    border: 0ch;
+    background-color: rgb(131, 192, 96);
+}
+
+
+/*footer*/
+
+footer{
+    position: absolute;
+    top: 700px;
+    display: flex;
+    vertical-align: middle;
+    background-image: linear-gradient(to right, #1C3643, #1E5372)
+}

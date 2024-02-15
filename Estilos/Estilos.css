@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/*Nav*/
+
+nav{
+    z-index: 99;
+}
+
+.container-fluid{
+    position: fixed;
+    z-index: 11;
+    background-color: rgb(68, 67, 67);
+    
+    color: white;
+    top: 0px;
+
+}
+
+.container-fluid img{
+    height: 60px;
+    
+
+}
+.navbar-brand{
+    color: aliceblue;
+
+}
+
+#ComprarTicket{
+   color: green;
+   font-weight: bolder    ;
+   
+}
+
+
+
+/*Carousel*/
+
+.carousel-caption {
+    position: absolute; 
+    
+    bottom: 195px; /* Cambiar bottom por top y los píxeles que necesites */
+    left: 45%;
+    z-index: 10;
+    padding: 0;
+    color: #fff;
+  
+    text-align:right;
+    background-color: rgba(0, 0, 0, 0); /* Añadir para conseguir el fondo con opacidad */
+}
+
+.carousel-caption h2{
+    text-align: end;
+    
+}
+
+.carousel-inner img{
+    filter: brightness(50%);
+
+}
+.carousel-caption div{
+    display: flex;
+    
+    justify-content:end;
+}
+.botones-carousel{
+    display: flex;
+    justify-content:end;
+}
+#boton-orador{
+    background-color: green;
+    border: white solid 1px;
+
+}
+
+#boton-ticket a {
+    text-decoration: none;
+    color: white;
+}
+#boton-ticket{
+    
+    background-color: green;
+    border: green solid 1px;
+    justify-content:right;
+}
+
+
+
+
+/*Cards*/
+
+.titulo-oradores{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*Honolulu*/
+
+
+
+.section2-image{
+    width: 50%;
+    
+   }
+
+.section2-image img{
+
+    width: 100%;
+}
+
+.section2-text{
+    width: 50%;
+    color: white;
+    padding-left: 1em;
+    padding-top: 1em;
+
+}
+.section2-text button{
+    color: white;
+    border: white solid 1px;
+}
+
+
+.container-honolulu{
+    margin-top: 2em;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(65, 65, 65);
+}
+
+
+/*Convierte en orador
+
+*/
+
+
+.titulo-form-orador{
+    text-align: center;
+}
+
+
+.texto-carousel{
+    position: absolute;
+    
+}
+form {
+    margin: auto;
+    margin-top: 2em;
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+#anotate{ 
+    text-align: center;
+}
+form span{
+    text-decoration:underline dotted;
+    
+}
+
+#exampleInputText{
+    width: 47%;
+}
+.mb-3a{
+    
+    display: flex;
+    
+    justify-content:space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    
+}
+
+#boton-form{
+    background-color: rgb(174, 236, 79);
+    border: rgb(168, 250, 45);
+    border-radius: 5px;
+}
+
+form p {
+    text-align:left;
+    font-size: x-small;
+    color: gray;
+}
+
+.mb-3b{
+    margin-bottom: 1px!important    ;
+}
+
+.form-orador{
+    margin-bottom: 20px;
+}
+
+/*footer*/
+
+footer{
+    height: 100px;
+    background-color: rgb(45, 66, 83);
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-around;
+    color: white !important;
+    
+    text-decoration: none;
+ 
+    font-size:small;
+
+    
+}
+footer .container{
+    margin: 0px;
+
+}
+.colu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+main{
+    margin: 62px 300px 0px 300px;
+}
+
+.cards{
+
+    margin-bottom: 10px;
+}
+
+.form-ticket{
+    margin-top: 10px;
+}
